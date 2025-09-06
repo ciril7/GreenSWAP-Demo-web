@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>GreenSwap</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🌱 GreenSwap</h1>
+        <p class="sub">Buy · Sell · Donate — simple student marketplace</p>
+      </header>
+
+      <main>
+        <section class="card">
+          <h2>List an Item</h2>
+          <form id="addForm">
+            <input id="name" placeholder="Item name *" required />
+            <input id="category" placeholder="Category (e.g. Books)" />
+            <input id="price" placeholder="Price (numbers only)" type="number" />
+            <input id="user" placeholder="Your name" />
+            <input id="email" placeholder="Your email" type="email" />
+            <button type="submit">Add Item</button>
+          </form>
+        </section>
+
+        <section class="card">
+          <div class="list-header">
+            <h2>Marketplace</h2>
+            <button id="refreshBtn" class="small">Refresh</button>
+          </div>
+          <div id="itemsArea">Loading items…</div>
+        </section>
+      </main>
+
+      <footer>© <span id="year"></span> GreenSwap</footer>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
