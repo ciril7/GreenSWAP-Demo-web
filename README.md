@@ -58,3 +58,11 @@ Hackathon Project — GreenSwap 🌱♻️
 📜 License
 
 This project is open-source and free to use.
+
+
+---
+
+✅ Just create a new file named **`README.md`** in your project folder, paste this in, save, and then commit & push again to GitHub.  
+
+Would you like me to also give you the **exact Git commands** to add the README and push it in one shot?
+
