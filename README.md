@@ -16,14 +16,23 @@ Built with **Node.js + Express (backend)** and **HTML/CSS/JS (frontend)**, it pr
 ## 📂 Project Structure
 
 GreenSwap/
+
 ├── data/
+
 │ └── items.json # Stores added items
+
 ├── public/
+
 │ ├── index.html # Main UI
+
 │ ├── style.css # Styling
+
 │ └── script.js # Frontend logic
+
 ├── server.js # Backend server
+
 ├── package.json # Dependencies & scripts
+
 └── README.md # Project info
 
 
